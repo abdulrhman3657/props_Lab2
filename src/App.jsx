@@ -10,14 +10,14 @@ function App() {
     <>
       <Nabbar/>
 
-      <div className='d-flex flex-wrap align-items-center justify-content-center'>
-        <div className='row '>
+      <div className='d-flex flex-column align-items-center justify-content-center'>
+        <div className='row w-75'>
           <div className='col-lg d-flex align-items-center justify-content-center'>
         <Card text="text1" list={[1, 2, 3, 4]} img="https://images.pexels.com/photos/31449901/pexels-photo-31449901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
 
           </div>
           <div className='col-lg d-flex align-items-center justify-content-center'>
-        <Card text="text2" list={[11, 22, 33, 44]} img="https://images.pexels.com/photos/31867635/pexels-photo-31867635/free-photo-of-abstract-pink-and-gold-marbled-texture-art.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
+        <Card text="text2" list={[11, 22, 33, 44]} img="https://images.pexels.com/photos/31212418/pexels-photo-31212418/free-photo-of-elegant-minimalist-baby-s-breath-in-artistic-vase.jpeg"/>
 
           </div>
           <div className='col-lg d-flex align-items-center justify-content-center'>
@@ -26,7 +26,7 @@ function App() {
           </div>
         </div>
 
-        <div className='row'>
+        <div className='row w-75'>
           <div className='col-lg d-flex align-items-center justify-content-center'>
         <Card text="text4" list={[5, 6, 7, 8]} img="https://images.pexels.com/photos/29504593/pexels-photo-29504593/free-photo-of-colorful-abstract-fluid-art-painting-on-canvas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
 

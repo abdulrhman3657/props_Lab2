@@ -6,8 +6,8 @@ function Card(props) {
   return (
     <>
     
-    <div className="card p-3 m-3" style={{width:"18rem"}}>
-      <img src={props.img} />
+    <div className="card p-3 m-3" style={{width:"18rem", height:"40rem"}}>
+      <img  src={props.img} />
       <div className="card-body">
         <p className="card-text">{props.text}</p>
         <ul>
